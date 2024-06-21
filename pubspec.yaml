@@ -1,0 +1,54 @@
+name: blogify
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.4 <4.0.0"
+
+
+
+# ===================  DEPENDENCIES  =================== 
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # -----StateManagements
+
+
+
+  # -----UI elements
+
+  # -----Helpers
+  connectivity_plus: ^6.0.3
+
+
+# ================== DEV DEPENDENCIES  ==================
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+
+
+# =======================  ASSETS  ======================
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+
+
+# =======================  FONTS  =======================
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
