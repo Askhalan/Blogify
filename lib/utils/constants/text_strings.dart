@@ -32,7 +32,7 @@ class JTexts {
   static const String verificationCode = "verificationCode";
   static const String resendEmail = "Resend Email";
   static const String resendEmailIn = "Resend email in";
-  static const String haveAccount = "Aready have an account?";
+  static const String haveAccount = "Aready have an account ?";
   static const String loginNow = "Login Now";
   static const String title = "Title";
 }

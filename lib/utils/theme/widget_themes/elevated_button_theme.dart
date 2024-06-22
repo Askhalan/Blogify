@@ -12,12 +12,12 @@ class JElevatedButtonTheme {
     style: ElevatedButton.styleFrom(
       elevation: 0,
       foregroundColor: JColor.light,
-      backgroundColor: JColor.primary,
+      backgroundColor: JColor.secondary,
       disabledForegroundColor: JColor.darkGrey,
       disabledBackgroundColor: JColor.buttonDisabled,
       side: const BorderSide(color: JColor.primary),
       padding: const EdgeInsets.symmetric(vertical: JSize.buttonHeight),
-      textStyle: const TextStyle(fontSize: 16, color: JColor.textWhite, fontWeight: FontWeight.w600),
+      textStyle: const TextStyle(fontSize: 16, color: JColor.primary, fontWeight: FontWeight.w600),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(JSize.buttonRadius)),
     ),
   );
@@ -32,8 +32,8 @@ class JElevatedButtonTheme {
       disabledBackgroundColor: JColor.darkerGrey,
       side: const BorderSide(color: JColor.primary),
       padding: const EdgeInsets.symmetric(vertical: JSize.buttonHeight),
-      textStyle: const TextStyle(fontSize: 16, color: JColor.textWhite, fontWeight: FontWeight.w600),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(JSize.buttonRadius)),
+      textStyle: const TextStyle(fontSize: 16, color: JColor.textPrimary, fontWeight: FontWeight.w600),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(JSize.inputFieldRadiusXl)),
     ),
   );
 }

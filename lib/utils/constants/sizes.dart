@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class JSize {
   JSize._();
 
@@ -36,7 +38,7 @@ class JSize {
 
 // Button Sizes
   static const double btnHeight = 40.0;
-  static const double buttonHeight = 18.0;
+  static const double buttonHeight = 16.0;
   static const double buttonRadius = 8.0;
   static const double buttonWidth = 120.0;
   static const double buttonElevation = 4.0;
@@ -52,7 +54,12 @@ class JSize {
   static const double cardElevation = 2.0;
 
 // Input field
-  static const double inputFieldRadius = 7.0;
+  static const double inputFieldRadiusXl = 15.0;
+  static const double inputFieldRadiusLg = 9.0;
   static const double spaceBtwInputFields = 16.0;
+
+
+// Default Pading 
+  static EdgeInsets defaultPadding = const EdgeInsets.all(20);
 }
 

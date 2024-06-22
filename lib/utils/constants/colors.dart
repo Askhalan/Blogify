@@ -8,9 +8,9 @@ class JColor {
 // ===================================Project-Specific-Colours======================================
 
   // App Basic Colors
-  static const Color primary =Color(0xFFFFFFFF);
-  static const Color secondary = Color(0xFFFFFFFF);
-  static const Color accent =Color(0xFFFFFFFF);
+  static const Color primary =Color(0xFFF4F0DC);
+  static const Color secondary = Color(0xFF3D405C);
+  static const Color accent =Color(0xFFE17C60);
 
   // Background Colors
   static const Color light = Color(0xFFF6F6F6);
@@ -23,8 +23,8 @@ class JColor {
   static const Color iconAccent = Color(0xFFFFFFFF);
 
   // Text colors
-  static const Color textPrimary = Color(0xFF333333);
-  static const Color ttextSecondary = Color(0xFFFFFFFF);
+  static const Color textPrimary = Color.fromARGB(255, 24, 25, 32);
+  static const Color textSecondary = Color(0xFFFFFFFF);
   static const Color textWhite = Colors.white;
 
   // Button colors
